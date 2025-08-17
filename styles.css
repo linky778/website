@@ -1,0 +1,88 @@
+/* CSS colour paletter from https://coolors.co/ */ 
+
+/* 
+
+--battleship-gray: #989B96; 
+
+--tea-green: #C3DBB1; 
+
+--olivine: #97B46f; 
+
+--bistre(near black): #2E2620; 
+
+--silver: #CBC4C4; 
+
+*/ 
+
+body { 
+
+    background-color: #C3DBB1; 
+
+} 
+
+h1 { 
+
+    margin: 0; 
+
+    background-color: #2E2620;  
+
+    color: #97B46f; 
+
+    text-align: center; 
+
+    font-size: 48px; 
+
+} 
+
+p { 
+
+    width: 650px; 
+
+    margin: 40px 187px; 
+
+    font-size: 20px; 
+
+    line-height: 1.4; 
+
+    color: #2E2620; 
+
+} 
+
+span { 
+
+    font-size: 34px; 
+
+    font-weight: bold; 
+
+    color: #989B96; 
+
+} 
+
+img { 
+
+    width: 100%; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+li {
+  float: left;
+}
+ 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
