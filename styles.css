@@ -36,9 +36,9 @@ h1 {
 
 p { 
 
-    width: 650px; 
 
-    margin: 40px 187px; 
+
+    margin: 40px auto; 
 
     font-size: 20px; 
 
@@ -47,6 +47,10 @@ p {
     color: #2E2620; 
 
 } 
+.home-text
+{
+    width: 650px; 
+}
 
 span { 
 

@@ -5,13 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="booking.css" />
 </head>
 <body>
     <ul>
       <li><a href="/">Home</a></li>
        <li><a href="booking.html">bookings</a></li>
-      <li><a href="past-performances.html">past preformnces</a></li>
+      <li><a href="past-performances.html">past performances</a></li>
     </ul>
     <h1>bookings</h1>
+    <h2>Book a gig</h2> 
+
+ 
+
+<form> 
+
+  <div> 
+
+    <label for="arrival-date">date for event*</label> 
+
+    <input type="date" id="arrival-date" name="arrival-date" required> 
+
+  </div> 
+
+  <div> 
+
+    <label for="departure-date">location*</label> 
+
+    <input type="text" id="departure-date" name="departure-date" required> 
+
+  </div> 
+
+ 
+
+  <div> 
+
+    <label for="party-size">hours to play*</label> 
+
+    <input type="number" min="1" max="50" value="2" id="party-size" name="party-size" required> 
+
+  </div> 
+
+
+  
+
+   
+
+  <div> 
+
+    <input class="button" type="submit" value="Find available slots"> 
+
+  </div> 
+
+</form> 
 </body>
 </html>

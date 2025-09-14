@@ -1,0 +1,57 @@
+body { 
+
+  width: 640px; 
+
+  margin: auto; 
+
+  font-size: 20px; 
+
+  background-image: url(bike_cog.jpeg); 
+
+  background-size: cover; 
+
+} 
+
+form, h2 { 
+
+   
+
+  background: rgba(255,255,255,0.5);  
+
+  padding: 40px; 
+
+} 
+
+div { 
+
+  margin: 30px 0; 
+
+} 
+
+ 
+
+label { 
+
+  display: block; 
+
+  line-height: 1.8; 
+
+} 
+
+ 
+
+p { 
+
+  margin-bottom: 0; 
+
+  line-height: 1.8; 
+
+} 
+
+ 
+
+input { 
+
+  padding: 16px;   
+
+} 
